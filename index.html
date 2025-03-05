@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Budget Tracker</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Budget Tracker</h1>
+        <div class="budget-grid">
+            <!-- Income Section -->
+            <div class="column">
+                <h2>Income</h2>
+                <form id="income-form">
+                    <label>Date:</label>
+                    <input type="date" id="income-date" required>
+                    <label>Description:</label>
+                    <input type="text" id="income-description" placeholder="Source of income" required>
+                    <label>Amount:</label>
+                    <input type="number" id="income-amount" placeholder="Enter amount" required>
+                    <button type="submit">Add Income</button>
+                </form>
+                <ul id="income-list"></ul>
+            </div>
+
+            <!-- Expense Section -->
+            <div class="column">
+                <h2>Expense</h2>
+                <form id="expense-form">
+                    <label>Date:</label>
+                    <input type="date" id="expense-date" required>
+                    <label>Description:</label>
+                    <input type="text" id="expense-description" placeholder="Expense details" required>
+                    <label>Amount:</label>
+                    <input type="number" id="expense-amount" placeholder="Enter amount" required>
+                    <button type="submit">Add Expense</button>
+                </form>
+                <ul id="expense-list"></ul>
+            </div>
+
+            <!-- Remaining Budget Section -->
+            <div class="column">
+                <h2>Remaining Budget</h2>
+                <div id="remaining-budget">₹0.00</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
