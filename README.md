@@ -12,4 +12,4 @@ Remaining Budget Calculation: Displays the current balance dynamically.
 
 Responsive Design: Works well on both desktop and mobile devices.
 
-🖥️ Demo You can check out the live demo here.
+🖥️ Demo You can check out the live demo [here](https://gupta-saurabh0.github.io/Budget-tracker-app/).
